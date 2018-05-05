@@ -160,7 +160,7 @@ def work_(data):
   features = df4.drop('target', axis=1)
   labels = df4['target']
   X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.30)
-  #------------------------------------------------------------------------------------------------------------------------------------
+  #-----------------------------------------------------------------------------------------------------------
   df = pandas.read_excel("2010 Federal STEM Education Inventory Data Set.xls", skiprows = 1)
   cols = [column for column in df.columns if "Unnamed" not in column]
   df = df[cols]
@@ -195,8 +195,8 @@ def work_(data):
   plt.xticks(rotation='vertical')
   plt.title("Frequency of Year Established", fontsize=15)
   plt.show()
-  #--------------------------------------------------------------------------------------------------------------------------------------
-  #plot(df3)
+  #-------------------------------------------------------------------------------------------------------------------------
+  plot(df3)
   score1, roc = algorithm( X_train, X_test, y_train, y_test)
   score2, xg_roc = xgboost_( X_train, X_test, y_train, y_test)
   
@@ -207,7 +207,7 @@ def work_(data):
 # In[44]:
 
 data = '2010 Federal STEM Education Inventory Data Set.xls'
-work_(data)
+score1, score2, roc, xg_roc = work_(data)
 
 
 # In[9]:
