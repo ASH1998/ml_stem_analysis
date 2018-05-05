@@ -33,6 +33,17 @@ Takes in `X_train, X_test, y_train, y_test` as input and output returned is the 
   
   Output is the overall result.
   
+  #### Univariate graphs
+  ##### Frequency of Agency
+  ![agency](https://github.com/ASH1998/ml_stem_analysis/blob/master/Image/types%20of%20agency.PNG)
+  
+  ##### Frequrency of sub-agency
+  ![sub](https://github.com/ASH1998/ml_stem_analysis/blob/master/Image/types%20of%20subagency.PNG)
+  
+  ##### Year wise established
+  ![year](https://github.com/ASH1998/ml_stem_analysis/blob/master/Image/year.PNG)
+  
+  ##### Final scores
   ![final](https://github.com/ASH1998/ml_stem_analysis/blob/master/Image/final.PNG)
   
   ### test_work_()
