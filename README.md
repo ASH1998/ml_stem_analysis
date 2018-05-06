@@ -10,7 +10,7 @@
 7. pytest
 
 ## Walkthrough
-The Part2.ipynb is the main script.
+The [Part2.ipynb](https://github.com/ASH1998/ml_stem_analysis/blob/master/Part2.html) is the main script.
 ### plot()
 This function takes in the dataframe and goes over all the non- funding variables and makes a subplot.
 The plot in the notebook is very big `figsize = (400, 400)` for which it doesn't appear at first, due to huge number of features.
